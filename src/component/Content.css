@@ -1,0 +1,103 @@
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.highlight {
+    height: 200px;
+    width: 200px;
+    background:hsl(227, 47%, 96%);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 0;
+    border-top: 6px solid  rgb(99, 99, 236);
+
+    /* overflow: hidden; */
+
+    .users {
+        position: absolute;
+        display: flex;
+        top: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+
+        .fbutton{
+            color: hsl(208, 92%, 53%);
+        }
+        .tbutton{
+            color: hsl(203, 89%, 53%);
+        }
+        .ibutton{
+            color: linear gradient (hsl(37, 97%, 70%) to hsl(329, 70%, 58%));
+        }
+        .ybutton{
+            color: hsl(348, 97%, 39%);
+            border-radius: 100%;
+        }
+
+        Label {
+            margin-left: 10px;
+        }
+    }
+
+    .count{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+        h1{
+            margin-bottom: 0;
+        }
+        h3{
+            margin-top: 0;
+            letter-spacing: 5px;
+            color: hsl(230, 17%, 14%);
+            font-weight: bolder;
+        }
+     
+    }
+
+    .progress{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 5px;
+        font-size: 20px;
+  
+
+
+        .progressUp{
+            font-size: 20px;
+            color: #1aad06;
+            position: absolute;
+            left: -20px;
+            top: 0px;
+        }
+
+        .downColor{
+            color: red;
+        }
+
+        .progressCount{
+            color: #1aad06;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+    }
+   
+}
+  
